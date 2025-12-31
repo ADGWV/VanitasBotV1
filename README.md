@@ -93,31 +93,28 @@ apt update -y && apt upgrade -y
 ### 2️⃣ تثبيت المتطلبات الأساسية
 
 ```bash
-pkg install -y
+pkg install git -y
 ```
 ```bash
-git 
+pkg install nodejs -y
 ```
 ```bash
-nodejs 
+pkg install ffmpeg -y
 ```
 ```bash
-ffmpeg 
+pkg install imagemagick -y
 ```
 ```bash
-imagemagick 
+pkg install python -y
 ```
 ```bash
-python 
+pkg install build-essential -y
 ```
 ```bash
-build-essential 
+pkg install libwebp -y
 ```
 ```bash
-libwebp 
-```
-```bash
-openssl
+pkg install openssl -y
 ```
 
 ## `ليه دول؟ باختصار:`
